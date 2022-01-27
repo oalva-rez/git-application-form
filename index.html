@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body>
+    <div class="background">
+        <section class="main-container">
+            <header class="header-details">
+                <h1>Application For Permission To Date My Daughter</h1>
+                <p><span id="note">Note:</span> Form is to be completed at least 21 days prior to date</p>
+            </header>
+            
+            <section class="personal-details margin-sections">
+                <h2 class="sub-header">Personal Details</h2>
+                <div>
+                    <span>Name:</span>
+                    <input type="text" class="name" placeholder="Enter name here">
+                </div>
+                <div>
+                    <span>Adress:</span>
+                    <input type="text" class="adress" placeholder="Enter adress here">
+                </div>
+                <div>
+                    <span>Email:</span>
+                    <input type="text" class="email" placeholder="Enter email here">
+                </div>
+                <div>
+                    <span>Phone Number:</span>
+                    <input type="text" class="phone" placeholder="Enter phone number here">
+                </div>
+                <div>
+                    <span>IQ:</span>
+                    <input type="text" class="iq" placeholder="Enter IQ here">
+                </div>
+                <div class="gender">
+                    <p>Gender:</p>
+                    <input type="radio" id="male" name="gender-input">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender-input">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="gender-input">
+                    <label for="other">Other</label><br>  
+                </div>
+                <div class="outing-date">
+                    <label for="outing">Date of Proposed Outing:</label><br>
+                    <input type="date" id="outing" name="outing-input">
+                </div>
+            </section>
+            <section class="check-all-that-apply margin-sections">
+                <h2>Check All That Apply</h2>
+                <div class="apply-all">
+                    <input type="checkbox" name="tattoos">
+                    <label for="tattoos">Do you have tattoos?</label><br>
+                    <input type="checkbox" name="older">
+                    <label for="older">I am two years older than my daughter.</label><br>
+                    <input type="checkbox" name="car">
+                    <label for="car">I own a panel van or V8 ute</label><br>
+                    <input type="checkbox" name="work">
+                    <label for="work">I work full-time</label><br>
+                    <input type="checkbox" name="money">
+                    <label for="money">My parents are rich</label><br>
+                    <input type="checkbox" name="date">
+                    <label for="date">Is the date at a well lit public location</label><br>  
+                </div>
+            </section>
+            <section class="politcal-view-uni margin-sections">
+                <div>
+                    <label for="politics">Politcal Persuasion:</label>
+                    <select id="dropdown">
+                        <option value="left">Left Wing</option>
+                        <option value="right">Right Wing</option>
+                        <option value="conservative">Conservative</option>
+                        <option value="nazi">Nazi</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="edu">Education label completed:</label>
+                    <select id="dropdown2">
+                        <option value="university">University</option>
+                        <option value="college">College</option>
+                        <option value="high-school">High School</option>
+                        <option value="none">None</option>
+                    </select>
+                </div>
+            </section>
+            <section class="essay-section margin-sections">
+                <h2 class="sub-header">Essay Section</h2>
+                <div class="why">
+                    <label for="why-her">In 50 words or more explain why you want to date my daughter</label><br>
+                    <input type="text" name="why-her" id="textfield" placeholder="Enter Text Here"><br>
+                </div>
+                <div class="contact">
+                    <label for="contact-info">Please upload contact details for 2 references</label><br>
+                    <input type="text" name="contact-info" id="textfield2" placeholder="Enter Text Here"><br>
+                </div>
+                <div class="upload-certificates">
+                    <label for="files">Upload Police Clearance Certificate, Bank Statement and Medical Certifiates here:</label>
+                    <button name="attach-files" id="files-button">Attach Files</button>
+                </div>
+            </section>
+            <section class="submit margin-sections">
+                <button class="submit-button">Send Your Application</button>
+            </section>
+        </section>
+    </div>
+</body>
+</html>

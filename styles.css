@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+.background {
+    background-color: #fafad2;
+    padding: 1px 0 1px 0;
+    margin: -1px auto -1px auto;
+    
+    
+}
+
+.main-container {
+    outline: 3px solid black;
+    margin: 50px 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+    
+}
+
+.margin-sections {
+    outline: 1px solid grey;
+    border-radius: 10px;
+    margin: 0px 40px;
+}
+
+.header-details h1 {
+    text-align: center;
+    margin: 40px 0px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.margin-sections {
+    margin: 10px 40px;
+}
+.margin-sections > * {
+    margin-left: 8px;
+}
+
+.header-details p {
+    margin: 0px 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.check-all-that-apply h2 {
+    font-size: 15px;
+    padding: 5px;
+}
+
+#note {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.margin-sections > * {
+    padding: 12px 0px;
+}
+
+.sub-header {
+    font-size: 18px;
+    margin-top: -14px;
+    padding: 0;
+    background-color: white;
+    position: absolute;
+    display: inline;
+    
+}
+
+.politcal-view-uni > *{
+    display: inline-block;
+}
+
+#dropdown,
+#dropdown2 {
+    padding: 0;
+}
+
+#textfield,
+#textfield2 {
+    padding: 0px 175px 55px 0px;
+}
+
+#files-button {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: white;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-button {
+    display: inline-flex;
+    padding: 10px;
+    margin: 10px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: white;
+}
+
+
+
+
+
+
